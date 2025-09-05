@@ -36,9 +36,19 @@ npm install
 3. **Crea un archivo `.env`** en la raíz del proyecto con las variables necesarias:
 
 ```env
-URI_MONGODB = 'mongodb+srv://oscar:1234@cluster0.cscud.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
 PORT = 8080
-SECRET=CoderSecret
+USER=oscar
+PASSWORD=1234
+DBNAME=Products
+JWT_SECRET=CoderSecret
+JWT_COOKIE=authCookie
+ADMIN_EMAIL=correoadmin@correo.com
+ADMIN_PASSWORD=123
+GOOGLE_CLIENT=28030746378-veb659t378a6k238u3et5g3un48q198b.apps.googleusercontent.com
+GOOGLE_SECRET=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
+PERSISTENCE=MONGO
+NODE_MAILER_USER=pruevaa2006@gmail.com
+NODE_MAILER_PASSWORD=ogoy glmn mqww abex
 ```
 
 4. **Inicia el servidor en modo desarrollo:**
