@@ -81,6 +81,7 @@ npm run dev
 ```json
 "dependencies": {
   "bcrypt": "^6.0.0",
+       "bcrypt": "^6.0.0",
         "connect-mongo": "^5.1.0",
         "cookie-parser": "^1.4.7",
         "dotenv": "^16.6.1",
@@ -92,9 +93,11 @@ npm run dev
         "mongoose": "^8.17.1",
         "mongoose-paginate-v2": "^1.9.1",
         "multer": "^1.4.5-lts.1",
+        "nodemailer": "^7.0.6",
         "nodemon": "^3.1.10",
         "passport": "^0.7.0",
         "passport-github2": "^0.1.12",
+        "passport-google-oauth20": "^2.0.0",
         "passport-jwt": "^4.0.1",
         "passport-local": "^1.0.0",
         "socket.io": "^4.8.1",
@@ -108,3 +111,4 @@ npm run dev
 ## ✨ Créditos
 
 Desarrollado por **Oscar Peñuela**
+
