@@ -1,3 +1,4 @@
+
 # 🛒 Proyecto de Carrito de Compras con Node.js, Express y Handlebars
 
 Este proyecto es una aplicación web construida con Node.js y Express, que incluye funcionalidades como gestión de carritos de compras, conexión con MongoDB, renderizado con Handlebars.

@@ -1,0 +1,48 @@
+<h1 class="title">Registro de productos</h1>
+
+<form id="formProductCreator" class="formProducts">
+  <div class="row">
+    <div class="col-4">
+      <input class="controls" type="text" name="title" id="title" placeholder="Nombre" required />
+    </div>
+    <div class="col-8">
+      <input class="controls" type="text" name="description" id="description" placeholder="Descripción" required />
+    </div>
+    <div class="row">
+      <div class="col-4">
+        <input class="controls" type="text" name="category" id="category" placeholder="Categoría" required />
+      </div>
+      <div class="col-4">
+        <input class="controls" type="text" name="code" id="code" placeholder="Código" required />
+      </div>
+      <div class="col-4">
+        <input class="controls" type="number" name="stock" id="stock" placeholder="Stock" required />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-4">
+        <input class="controls" type="number" name="price" id="price" placeholder="Precio" required />
+      </div>
+    </div>
+  </div>
+
+  <button class="btn btn-card" id="add-btn" type="submit">Registrar</button>
+
+
+  <h2 class="subtitle">Eliminar producto</h2>
+  <div class="row">
+    <div class="col-12 controlsDeleteProducto">
+      {{!-- <input class="controls text-center" type="text" name="pid" id="pid" placeholder="ID del producto" /> --}}
+    </div>
+  </div>
+
+  <button class="btn btn-card" id="delete-btn" type="button">Eliminar/Estado</button>
+</form>
+
+
+
+<div id="form-messages"></div>
+<div class="container" id="container"></div>
+
+
+<script src="/js/productCreator.js"></script>
